@@ -30,8 +30,10 @@
 
   a:hover { text-decoration: underline; }
   .btn-link:hover { background-color: #FFE24D !important; }
+  .btn-link-outline:hover { background-color: #071D49 !important; color: #FFFFFF !important; }
   a:focus-visible { outline: 3px solid #0072CE; outline-offset: 2px; }
   .btn-link:focus-visible { outline: 3px solid #FFFFFF; outline-offset: 2px; }
+  .btn-link-outline:focus-visible { outline: 3px solid #0072CE; outline-offset: 2px; }
 
   @media only screen and (max-width: 620px) {
     .container { width: 100% !important; }
@@ -121,11 +123,30 @@
 
         <!-- ============ SECTION: FULL ITEM LIST REFERENCE ============ -->
         <tr>
-          <td class="px bg-card" bgcolor="#FFFFFF" align="center" style="background-color:#FFFFFF; padding:22px 40px; border-bottom:1px solid #DDE5ED;">
-            <p class="text-body" style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:22px; color:#768692;">
-              Check with your manager or the latest promo sheet to confirm eligibility &mdash;
-              <a class="link-inline" href="https://greateasternsfd.github.io/foodcentric2026/rsc/PFG-Boston-Full-Item-List.pdf" target="_blank" style="color:#005A9E; font-weight:bold; text-decoration:underline;">see the full item list</a>.
+          <td class="px bg-card" bgcolor="#FFFFFF" align="center" style="background-color:#FFFFFF; padding:36px 40px; border-bottom:1px solid #DDE5ED;">
+            <h2 class="text-head" style="margin:0 0 8px 0; font-family:Georgia, 'Times New Roman', serif; font-size:21px; line-height:27px; font-weight:bold; color:#071D49;">
+              Need the Full Rundown?
+            </h2>
+            <p class="text-body" style="margin:0 0 22px 0; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:22px; color:#768692; max-width:420px; margin-left:auto; margin-right:auto;">
+              Browse every SKU, description, and pack size in our current portfolio &mdash; check with your manager or the latest promo sheet to confirm eligibility.
             </p>
+
+            <!-- Bulletproof secondary button (outlined) -->
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="btn-cell" style="margin:0 auto;">
+              <tr>
+                <td align="center" bgcolor="#FFFFFF" style="background-color:#FFFFFF; border:2px solid #071D49; border-radius:6px;">
+                  <!--[if mso]>
+                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="https://greateasternsfd.github.io/foodcentric2026/rsc/PFG-Boston-Full-Item-List.pdf" style="height:48px; v-text-anchor:middle; width:280px;" arcsize="12%" strokecolor="#071D49" strokeweight="2px" fillcolor="#FFFFFF">
+                    <w:anchorlock/>
+                    <center style="color:#071D49; font-family:Arial, sans-serif; font-size:15px; font-weight:bold;">View Full Item List</center>
+                  </v:roundrect>
+                  <![endif]-->
+                  <!--[if !mso]><!-->
+                  <a class="btn-link-outline" href="https://greateasternsfd.github.io/foodcentric2026/rsc/PFG-Boston-Full-Item-List.pdf" target="_blank" style="display:inline-block; padding:13px 28px; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:20px; font-weight:bold; color:#071D49; text-decoration:none; background-color:#FFFFFF; border-radius:6px;">View Full Item List</a>
+                  <!--<![endif]-->
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
 
